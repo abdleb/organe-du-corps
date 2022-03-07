@@ -1,0 +1,169 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+}
+
+section.top-page{
+    background: url(../image/grande\ image.PNG);
+    height: 100vh;
+    background-size: cover;
+}
+
+header.header img {
+    width: 150px;
+    margin-top: -1px;
+}
+
+nav.nav { 
+    width: 100%;
+    height: 65px;
+    background : green;
+    border-bottom: 0.5px solid yellow;
+    display: flex;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav { 
+    width: 100%;
+    height: 65px;
+    background : green;
+    border-bottom: 0.5px solid yellow;
+}
+
+.liste-items {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    height: 100%;
+    line-height: 50px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.items {
+    cursor: pointer;
+    margin: 0 20px;
+    flex-shrink: 0;
+}
+
+.items span {
+    font-size: 20px;
+}
+
+.items:nth-child(3){
+    margin-left: 0;
+}
+
+.sous-liste { 
+position: relative;
+top: -2px;
+margin-top: 10px;
+display: none;
+}
+
+.item-sous-liste {
+list-style-type: none;
+text-align: center;
+padding: 0 10px;
+background: rgb(0, 255, 221);
+border-bottom: 0.6px solid yellow ;
+}
+
+.item-sous-liste:hover {
+    background-color: rgb(238, 255, 0)
+}
+
+.items:hover > ul {
+    display: block;
+}
+
+footer.last-page { 
+    background-color: rgb(148, 43, 11);
+    height : 550px;
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0 ;
+}
+
+form { 
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button { 
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+}
+
+textarea { 
+    height: 120px;
+}
+
+.titre { 
+    height: 40vh;
+    margin: 0%;
+}
+button { 
+    font-size: 1.5em;
+    background-color: white;
+}
+
+button:hover { 
+    background-color: rgba(241, 38, 38, 0.918);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait { 
+    width: 75%;
+    height: 1px;
+    background-color: white;
+    margin: 60px auto;
+}
+
+#copyrightEtIcone { 
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+.cop { 
+    width: 50%;
+    text-align: left;
+    color:white;
+    float: left;
+    margin-left: 40px;
+}
+
+#icon { 
+    width: 50%;
+    float: right;
+    margin-right: 10px;
+}
+
+#icone a { 
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
+
+#icone a:hover { 
+    transform: scale(1.5);
+    transition: 0.1s;
+}

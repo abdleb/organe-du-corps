@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+}
+
+
+
+header.header img {
+    width: 150px;
+    margin-top: -1px;
+}
+
+nav.nav { 
+    width: 100%;
+    height: 65px;
+    background : green;
+    border-bottom: 0.5px solid yellow;
+    display: flex;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav { 
+    width: 100%;
+    height: 65px;
+    background : green;
+    border-bottom: 0.5px solid yellow;
+    color: white;
+}
+
+.liste-items {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    height: 100%;
+    line-height: 50px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.items {
+    cursor: pointer;
+    margin: 0 20px;
+    flex-shrink: 0;
+}
+
+.items span {
+    font-size: 20px;
+}
+
+.items:nth-child(3){
+    margin-left: 0;
+}
+
+.sous-liste { 
+position: relative;
+top: -2px;
+margin-top: 10px;
+display: none;
+}
+
+.item-sous-liste {
+list-style-type: none;
+text-align: center;
+padding: 0 10px;
+background: rgb(0, 255, 221);
+border-bottom: 0.6px solid yellow ;
+}
+
+.item-sous-liste:hover {
+    background-color: rgb(238, 255, 0)
+}
+
+.items:hover > ul {
+    display: block;
+}
+
+.video-cerveau1 { 
+    display: block;
+    margin: auto;
+    width: 100vh;
+    height: 50vh;
+}
+
+.image-titre { 
+    margin-top: 30px;
+    height: 450px;
+    width: 1480px;
+}
+
+.titre-def {
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.texte-def {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+font-size: 25px;
+}
+
+.anatom {
+    height: 50vh;
+    margin: 90px;
+}
+
+.tous { 
+    display: block;
+    margin: auto;
+    height: 50vh;
+}
+
+.texte-colone {
+    column-count: 2;
+    column-width: 40px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+font-size: 25px;
+}
+
+.anatomie-image7 {
+    height: 50vh;
+margin: 90px;
+}
+
+.texte-special { 
+    color: green;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.image-dft { 
+height: 50vh;
+}
+
+.image-dft12 { 
+    height: 50vh;
+    margin: 40px;
+}
+.image-dft1 { 
+    height: 50vh;
+}
+
+.dang-anatomie-image22 { 
+    height: 50vh;
+    margin: 60px;
+}
+ .texte-source { 
+        font-size: 15px;
+        margin: 10px;
+    }
+.anatomie-image99{
+    height: 70vh;;
+}
+.dang-anatomie-image2 {
+    height: 60vh;
+}
+
+.video-cerveau{
+    display: block;
+    margin: auto;
+    height: 70vh;
+    width: 90vh;
+}
+
+.anatomie-gif1 {
+     height: 50vh;
+     display: block;
+    margin: auto;
+}
+
+.anatomie-image111 {
+    height: 50vh;
+    display: block;
+    margin: auto;
+}
+footer.last-page { 
+    background-color: rgb(139, 20, 11);
+    height : 550px;
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0 ;
+}
+
+form { 
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button { 
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+}
+
+textarea { 
+    height: 120px;
+}
+
+button { 
+    font-size: 1.5em;
+    background-color: white;
+}
+
+button:hover { 
+    background-color: rgba(241, 38, 38, 0.918);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait { 
+    width: 75%;
+    height: 1px;
+    background-color: white;
+    margin: 60px auto;
+}
+
+#copyrightEtIcone { 
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+.cop { 
+    width: 50%;
+    text-align: left;
+    color:white;
+    float: left;
+    margin-left: 40px;
+}
+
+#icon { 
+    width: 50%;
+    float: right;
+    margin-right: 10px;
+}
+
+#icone a { 
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
+
+#icone a:hover { 
+    transform: scale(1.5);
+    transition: 0.1s;
+}
